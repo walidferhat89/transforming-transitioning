@@ -1,0 +1,36 @@
+@keyframes bounce{
+    from{transform: translate3d(0,0,0);}
+    to{transform: translate3d(640px,0,0);}
+}
+#ball{
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: brown;
+    animation: bounce linear;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+
+    
+    
+}
+
+@keyframes etalement{
+    from{transform: translate3d(0,0,0);}
+    to{transform: translate3d(640px,0,0);}
+}
+#cube{
+    
+    background-color: blue;
+    width: 200px;
+    height: 1px;
+    animation: etalement linear;
+    animation-duration: .1ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+
+}
+

@@ -31,15 +31,17 @@ div > p{
 
 /* Add rules for steps 8 and 9 */
 .letters > p:nth-of-type(2n):hover{
-transform: rotateY(360deg);
+transform: rotateY(720deg);
+/* transform: skew(10deg); */
 transition: 0.5s;
+
+
 }
 
 /* Add rules for steps 10 and 11 */
 .letters > p:nth-of-type(n):hover{
 
 	transform: rotateX(360deg);
+	/* transform: skew(10deg); */
 	transition: 1.5s;
-	
-
 }
